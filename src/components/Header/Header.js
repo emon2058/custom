@@ -2,7 +2,6 @@ import React from 'react';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import { NavLink } from 'react-router-dom';
-import './Header.css';
 const Header = () => {
     return (
         <div>
@@ -24,11 +23,6 @@ const Header = () => {
                     </Navbar.Collapse>
                 </Navbar>
             </nav>
-            <div className="header">
-                <h1>ONLINE LEARNING</h1>
-                <h1>Learn Everyday</h1>
-                <p>Learning something new every day is one of the top ways to keep the mind sharp. The brain is like a muscle and needs to be exercised</p>
-            </div>
         </div>
     );
 };
